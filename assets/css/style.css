@@ -4,11 +4,10 @@
     border: none;
 }
 
-#logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
+/** Header **/
+img {
+    max-width: 5%;
+    max-height: 5%;
 }
 
 #menu {
@@ -16,17 +15,20 @@
     letter-spacing: 4px;
 }
 
-header {
-    background-color: #b4b4b4;
+#menu, #logo {
+    line-height: 75px;
 }
 
 #menu li {
-    float: right;
+    float: left;
     list-style-type: none;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
-
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
 
 #menu a:hover {
     border-bottom: 1px solid #3a3a3a;
@@ -34,4 +36,23 @@ header {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+/** footer **/
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;   
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
