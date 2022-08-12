@@ -11,14 +11,13 @@ body {
 }
 
 /** Header **/
-img {
-    max-width: 5%;
-    max-height: 5%;
-}
 
 #logo {
-    float: left;
-    margin-left: 30px;
+    background: url(../images/logo.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: left;
 }
 
 #menu {
@@ -116,10 +115,24 @@ footer {
 }
 
 #memo h1 {
-    padding-left: 30%;
+    text-align: center;
     padding-bottom: 2%;
 }
 
+#memo p {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
+/** My speciality **//
+
+#my-specs {
+    height: 600px;
+}
+
+#my-spec h1 {
+    text-align: center;
+}
 
 
