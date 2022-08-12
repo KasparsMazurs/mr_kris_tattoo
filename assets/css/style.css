@@ -76,7 +76,7 @@ footer {
     color: #3a3a3a;
 }
 
-/** Ab0ut me section styling*/
+/** About me section styling*/
 
 #about-me {
     height: 700px;
@@ -139,53 +139,49 @@ my-spec p {
 #my-spec h1 {
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 200%;
 }
 
-#right {
-    float: right;
-}
-
-#left {
+#spec div {
+    width: 33%;
+    height: 70px;
     float: left;
-}
-
-#center {
+    padding: 30px 0 0 10px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 #tattoo {
     background: url(../images/tattoo.jpg);
     width: 33%;
-    height: 600px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size:contain;
     border-radius: 50%;
     position: relative;
-    
 }
 
 #original {
-    background: url(../images/original.jpg);
+    background: url(../images/merchandise.jpg);
     width: 33%;
-    height: 600px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size:contain;
-    border-radius: 100%;
+    border-radius: 50%;
     position: relative;
-    
 }
 
 #merchandise {
-    background: url(../images/merchandise.jpg);
+    background: url(../images/original.jpg);
     width: 33%;
-    height: 600px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size:contain;
-    border-radius: 100%;
+    border-radius: 50%;
     position: relative;
 }
 
 #pic div {
     display: inline-block;
-
 }
