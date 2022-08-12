@@ -80,19 +80,39 @@ footer {
 /** Abiut me section styling*/
 
 #about-me {
-    height: 600px;
+    height: 700px;
     background: url(../images/art.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color: rgba(163, 178, 185, .7);
+    overflow: hidden;
+    
+}
+
+#about-me-pic {
+    background: url(../images/title.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+}
+
+#about-me div {
+    background-color: rgba(0, 0, 0, .6);
+    overflow: hidden;
+    height: 100%;
 }
 
 #memo {
     float: right;
-    width: 80%;
+    width: 70%;
     padding-top: 10%;
     color: azure;
+    height: 500px;
 }
 
 #memo h1 {
@@ -100,13 +120,6 @@ footer {
     padding-bottom: 2%;
 }
 
-#about-me-pic {
-    background: url(../images/title.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    float: left;
-    height: 100%;
-    width: 20%;
-}
+
 
 
