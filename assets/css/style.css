@@ -6,6 +6,10 @@
     border: none;
 }
 
+body {
+    font-family: satisfy, arial;
+}
+
 /** Header **/
 img {
     max-width: 5%;
@@ -72,3 +76,31 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/** Abiut me section styling*/
+
+#about-me {
+    height: 600px;
+}
+
+#memo {
+    float: right;
+    width: 80%;
+    padding-top: 10%;
+}
+
+#memo h1 {
+    padding-left: 30%;
+    padding-bottom: 2%;
+}
+
+#about-me-pic {
+    background: url(../images/title.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    height: 100%;
+    width: 20%;
+}
+
+
