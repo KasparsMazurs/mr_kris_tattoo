@@ -81,12 +81,18 @@ footer {
 
 #about-me {
     height: 600px;
+    background: url(../images/art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(163, 178, 185, .7);
 }
 
 #memo {
     float: right;
     width: 80%;
     padding-top: 10%;
+    color: azure;
 }
 
 #memo h1 {
