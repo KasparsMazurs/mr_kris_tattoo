@@ -212,7 +212,7 @@ footer {
 #background {
     background-image: url(../images/pencils.jpg);
     width: 100%;
-    height: 600px;
+    height: 1200px;
     background-repeat: no-repeat;
     background-size:cover;
     position: relative;
@@ -237,6 +237,36 @@ footer {
     position: absolute;
     left:10%;
     padding:30px;
+}
+
+#contact {
+    color: white;
+    background-color: rgba(121, 117, 117, 0.6);
+    margin:700px 10% 0 0;
+    max-width:400px;
+    position: absolute;
+    left:10%;
+    padding:30px;
+    text-align: center;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact a i {
+    text-decoration: none;
+    color: black;
+}
+
+#contact h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#contact p {
+    font-size: 130%;
 }
 
 #form h2 {
