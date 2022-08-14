@@ -20,7 +20,7 @@ body {
     background-position: left;
 }
 
-#menu {
+#menu, #menu2 {
     font-family: satisfy, arial;
     font-size: 130%;
     letter-spacing: 4px; 
@@ -31,23 +31,27 @@ body {
     background-color: rgba(163, 178, 185, .7);
 }
 
+#menu2 {
+    height: 50px;
+}
+
 #menu, #logo {
     line-height: 20px;
 }
 
-#menu li {
+#menu li, #menu2 li {
     float: left;
     list-style-type: none;
     margin-left: 30px;
 }
 
-#menu a {
+#menu a, #menu2 a {
     text-decoration: none;
     color: black;
     
 }
 
-#menu a:hover {
+#menu a:hover, #menu2 a:hover {
     border-bottom: 1px solid black;
     font-size: 150%;
     font-weight: 1000;
