@@ -311,6 +311,20 @@ footer {
     font-size: 150%;
 }
 
+/* Galery style */
+
+#photos {
+    background-color: gray;
+    clear: both;
+    line-height: 1;
+    column-count: 4;
+    column-gap: 1;
+}
+
+#photos > img {
+    width: 100%;
+}
+
  /* For medium screen size from 1620px */
 
  @media screen and (max-width: 1620px) {
@@ -372,6 +386,10 @@ footer {
         border-bottom: 1px solid black;
         font-size: inherit;
         font-weight: inherit;
+    }
+
+    #photos {
+        column-count: 2;
     }
 
 }
