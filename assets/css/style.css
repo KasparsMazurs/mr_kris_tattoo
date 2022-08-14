@@ -226,3 +226,11 @@ footer {
     }
     
 }
+
+.construction {
+    background-image: url(..//images/construction.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    height: 600px;
+}
