@@ -274,12 +274,20 @@ footer {
     }
 
     #menu {
-        font-size: 80%;
+        font-size: 70%;
+        height: 20px;
     }
 
 
     #menu2 {
-        font-size: 80%;
+        font-size: 50%;
+        height: 30px;
+    }
+
+    #menu a:hover, #menu2 a:hover {
+        border-bottom: 1px solid black;
+        font-size: inherit;
+        font-weight: inherit;
     }
 
 }
