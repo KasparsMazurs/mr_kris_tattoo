@@ -204,27 +204,68 @@ footer {
 }
 
 /* contact me page */
+
 #location {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
-
+#background {
+    background-image: url(../images/pencils.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    background-position: center; 
+    overflow: hidden;
+}
 
 .text-input {
     background:transparent;
-    color:gray;
+    color: #fafafa;
     margin: 5px 0 20px;
     border:1px solid black;
     border-radius:2px;
+    display: block;
+}
+
+#form {
+    color: white;
+    background-color: rgba(121, 117, 117, 0.6);
+    margin:50px 10% 0 0;
+    max-width:400px;
+    position: absolute;
+    left:10%;
+    padding:30px;
+}
+
+#form h2 {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 #text {
     height: 200px;
-    width: 30%;
+    width: 100%;
+}
+
+#send {
+    margin-top:20px;
+    border-radius:2px;
+    padding:15px 32px 15px 32px;
+    text-align:center;
+    font-size:100%;
+    background-color: black;
+    color:#fafafa;
+}
+
+#send:hover {
+    font-size:130%;
+    background-color: blue;
 }
 
 #email {
-    width: 20%;
+    width: 50%;
 }
 
  /* For medium screen size from 1620px */
@@ -278,9 +319,8 @@ footer {
         height: 20px;
     }
 
-
     #menu2 {
-        font-size: 50%;
+        font-size: 60%;
         height: 30px;
     }
 
