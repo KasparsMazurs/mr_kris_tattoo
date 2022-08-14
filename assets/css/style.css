@@ -196,6 +196,12 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* contact me page */
+#location {
+    padding-top: 30px;
+}
+
  /* For medium screen size from 920px */
 @media screen and (max-width: 920px) {
     #tattoo {
