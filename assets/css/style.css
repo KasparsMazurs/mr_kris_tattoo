@@ -273,9 +273,13 @@ footer {
         height: 400px; 
     }
 
+    #menu {
+        font-size: 100%;
+    }
+
+
     #menu2 {
         font-size: 50%;
-        height: 30px;
     }
 
 }
