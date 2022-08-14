@@ -298,6 +298,19 @@ footer {
     width: 50%;
 }
 
+/* Thank you page style */
+#thank {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+#thank h2 {
+    font-size: 150%;
+}
+#thank p {
+    font-size: 150%;
+}
+
  /* For medium screen size from 1620px */
 
  @media screen and (max-width: 1620px) {
@@ -352,7 +365,7 @@ footer {
 
     #menu2 {
         font-size: 60%;
-        height: 30px;
+        height: 35px;
     }
 
     #menu a:hover, #menu2 a:hover {
