@@ -347,6 +347,7 @@ footer {
     #menu {
         font-size: 70%;
         height: 20px;
+        padding-top: 2px;
     }
 
     #menu2 {
