@@ -56,25 +56,6 @@ body {
 .active {
     border-bottom: 1px solid black;
 }
-/** footer **/
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;   
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
 
 /** About me section styling*/
 
@@ -128,14 +109,14 @@ footer {
 
 /** My speciality **//
 
-#my-specs {
+#my-spec {
     height: 600px;
 }
 
 #my-spec h1 {
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     font-size: 200%;
 }
 
@@ -186,5 +167,32 @@ footer {
     background-color: rgba(0, 0, 0, .6);
     overflow: hidden;
     height: 100%;
-    vertical-align: middle;
+    padding-top: 180px;
+    position: relative;
+    font-size: 200%;
+}
+
+#pic div a {
+    text-decoration: none;
+}
+
+/** footer **/
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;   
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
