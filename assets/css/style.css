@@ -202,6 +202,31 @@ footer {
     padding-top: 30px;
 }
 
+#form {
+    padding-left: 10%;
+}
+
+#form h2 {
+    padding-left: 14%;
+}
+
+.text-input {
+    background:transparent;
+    color:gray;
+    margin: 5px 0 20px;
+    border:1px solid black;
+    border-radius:2px;
+}
+
+#text {
+    height: 200px;
+    width: 30%;
+}
+
+#email {
+    width: 20%;
+}
+
  /* For medium screen size from 920px */
 @media screen and (max-width: 920px) {
     #tattoo {
