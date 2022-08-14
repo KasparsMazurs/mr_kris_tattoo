@@ -25,7 +25,6 @@ body {
 
 #menu, #menu2 {
     font-family: mephisto, arial;
-    font-size: 130%;
     letter-spacing: 4px; 
     width: 100%;
     height: 40px;
@@ -34,8 +33,12 @@ body {
     background-color: rgba(163, 178, 185, .7);
 }
 
+#menu {
+    font-size: 130%;
+}
+
 #menu2 {
-    height: 50px;
+    font-size: 100%;
 }
 
 #menu, #logo {
@@ -205,13 +208,7 @@ footer {
     padding-top: 30px;
 }
 
-#form {
-    padding-left: 10%;
-}
 
-#form h2 {
-    padding-left: 14%;
-}
 
 .text-input {
     background:transparent;
@@ -230,8 +227,25 @@ footer {
     width: 20%;
 }
 
+ /* For medium screen size from 1620px */
+
+ @media screen and (max-width: 1620px) {
+    #tattoo {
+        width: 30%;
+    }
+    
+    #original {
+        width: 30%;
+    }
+    
+    #merchandise {
+        width: 30%;
+    }
+ }
+
  /* For medium screen size from 920px */
 @media screen and (max-width: 920px) {
+
     #tattoo {
         width: 100%;
     }
@@ -258,7 +272,12 @@ footer {
         width: 100%;
         height: 400px; 
     }
-    
+
+    #menu2 {
+        font-size: 50%;
+        height: 30px;
+    }
+
 }
 
 .construction {
