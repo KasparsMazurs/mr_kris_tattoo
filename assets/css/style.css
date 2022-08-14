@@ -110,7 +110,7 @@ footer {
     float: right;
     width: 70%;
     padding-top: 10%;
-    color: azure;
+    color: white;
     height: 500px;
 }
 
@@ -132,10 +132,6 @@ footer {
     height: 600px;
 }
 
-my-spec p {
-    font-size: 150%;
-}
-
 #my-spec h1 {
     text-align: center;
     margin-bottom: 20px;
@@ -143,45 +139,52 @@ my-spec p {
     font-size: 200%;
 }
 
-#spec div {
-    width: 33%;
-    height: 70px;
-    float: left;
-    padding: 30px 0 0 10px;
-    text-align: center;
-    box-sizing: border-box;
-}
-
 #tattoo {
     background: url(../images/tattoo.jpg);
     width: 33%;
     height: 400px;
     background-repeat: no-repeat;
-    background-size:contain;
-    border-radius: 50%;
+    background-size:cover;
     position: relative;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 #original {
-    background: url(../images/merchandise.jpg);
-    width: 33%;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size:contain;
-    border-radius: 50%;
-    position: relative;
-}
-
-#merchandise {
     background: url(../images/original.jpg);
     width: 33%;
     height: 400px;
     background-repeat: no-repeat;
-    background-size:contain;
-    border-radius: 50%;
+    background-size:caver;
     position: relative;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#merchandise {
+    background: url(../images/merchandise.jpg);
+    width: 33%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    background-position: center;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 #pic div {
     display: inline-block;
+    overflow: hidden;
+}
+
+#pic div h2 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    overflow: hidden;
+    height: 100%;
+    vertical-align: middle;
 }
