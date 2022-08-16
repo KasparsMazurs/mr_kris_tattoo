@@ -2,7 +2,9 @@
 
 Mr. Kris Tattoo is a landing page for a self-made artist specializing in digital art and tattoos.  
 
-Users of this site will be able to find an artist portfolio and contact details.  
+Users of this site will be able to find an artist portfolio and contact details.
+
+This page is made using HTML and CSS only.
 
 ![responsivedesign](assets/images/for%20readme%20file/responsive.JPG)
 
