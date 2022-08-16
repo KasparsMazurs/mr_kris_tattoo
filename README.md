@@ -1,13 +1,36 @@
-# Mr. Kris Tattoo
+# Mr. Kris Tattoo  
 
-Mr. Kris Tattoo is a landing page for a self-made artist specializing in digital art and tattoos.
+Mr. Kris Tattoo is a landing page for a self-made artist specializing in digital art and tattoos.  
 
-Users of this site will be able to find an artist portfolio and contact details.
+Users of this site will be able to find an artist portfolio and contact details.  
+
+![responsivedesign](assets/images/for%20readme%20file/responsive.JPG)
+
+## Features
+
+- Navigation Bar
+![responsivedesign](assets/images/for%20readme%20file/nav.JPG)
+
+- About me
+![responsivedesign](assets/images/for%20readme%20file/about.JPG)
+
+- My speciality
+![responsivedesign](assets/images/for%20readme%20file/spec.JPG)
+
+- The Footer
+![responsivedesign](assets/images/for%20readme%20file/soc.JPG)
+
+- Gallery
+![responsivedesign](assets/images/for%20readme%20file/gal.JPG)
+
+- Contact me
+![responsivedesign](assets/images/for%20readme%20file/contact.JPG)
+
+- Address 
+![responsivedesign](assets/images/for%20readme%20file/map.JPG)
 
 
-
-
-
+Welcome KasparsMazurs 11,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
