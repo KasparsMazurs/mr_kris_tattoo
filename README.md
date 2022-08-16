@@ -1,6 +1,13 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Mr. Kris Tattoo
 
-Welcome KasparsMazurs 11,
+Mr. Kris Tattoo is a landing page for a self-made artist specializing in digital art and tattoos.
+
+Users of this site will be able to find an artist portfolio and contact details.
+
+
+
+
+
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
