@@ -72,6 +72,7 @@ The live link can be found <a href="https://kasparsmazurs.github.io/mr_kris_tatt
 
   - The icons in the footer and Contact me were taken from <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> 
   - The fonts in the homepage were taken from <a href="https://www.dafont.com/mephisto.font" target="_blank">Dafont</a>
+  - Inspiration for social media in the footer are taken from <a href="https://kasparsmazurs.github.io/Love_Running/" target="_blank">Love running</a> project
 
 ### Media
 
