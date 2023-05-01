@@ -231,32 +231,6 @@ button {
     text-decoration: none;
 }
 
-/** footer **/
-
-footer {
-    background-color: rgba(121, 117, 117, 0.6);
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 3%;
-    padding: 2%;
-    color: black;
-}
-
-.footer-text {
-    padding-top: 2%;
-    text-align: center;
-    font-size: 25px;
-}
 
 /* contact me page */
 
@@ -467,4 +441,32 @@ footer {
     background-size:contain;
     background-position: center;
     height: 600px;
+}
+
+/** footer **/
+
+footer {
+    bottom: 0;
+    background-color: rgba(121, 117, 117, 0.6);
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 3%;
+    padding: 2%;
+    color: black;
+}
+
+.footer-text {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 25px;
 }
