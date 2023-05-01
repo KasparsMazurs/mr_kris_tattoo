@@ -20,7 +20,7 @@ body {
     height: 100px;
     background-repeat: no-repeat;
     background-size:contain;
-    background-position: left;
+    background-position: center;
 }
 
 #menu, #menu2 {
@@ -185,11 +185,11 @@ body {
 /** footer **/
 
 footer {
-    height: 150px;
+    background-color: rgba(121, 117, 117, 0.6);v
 }
 
 .social-networks {
-    text-align: center;   
+    text-align: center;
 }
 
 .social-networks > li {
@@ -198,9 +198,15 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+    margin: 3%;
+    padding: 2%;
+    color: black;
+}
+
+.footer-text {
+    padding-top: 2%;
+    text-align: center;
+    font-size: 25px;
 }
 
 /* contact me page */
