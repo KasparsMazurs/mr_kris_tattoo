@@ -158,7 +158,7 @@ button {
     height: 100%;
 }
 
-/** My speciality **//
+/** My speciality **/
 
 #my-spec {
     height: 600px;
@@ -181,6 +181,10 @@ button {
     background-position: center;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.hover:hover {
+    font-weight: 600;
 }
 
 #original {
@@ -318,6 +322,8 @@ footer {
 
 #contact p {
     font-size: 130%;
+    padding: 0;
+    margin: 0;
 }
 
 #form h2 {
